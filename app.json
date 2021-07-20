@@ -1,0 +1,12 @@
+{
+  "name": "pokemon",
+  "displayName": "pokemon",
+  "expo": {
+    "name": "pokemon",
+    "slug": "pokemon",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
