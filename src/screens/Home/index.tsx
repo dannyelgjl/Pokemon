@@ -1,11 +1,16 @@
 import React from 'react';
-import { Text } from 'react-native';
-import { Container } from './styles';
+import { STRINGS } from './strings';
+import { Container, Title, SubTitle, Search } from './styles';
 
 const Home: React.FC = () => {
   return (
     <Container>
-      <Text>Daniel Poker</Text>
+      <Title>{STRINGS.TITLE}</Title>
+      <SubTitle>
+        {STRINGS.SUB_TITLE}
+      </SubTitle>
+
+      <Search />
     </Container>
   );
 }
