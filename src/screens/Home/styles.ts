@@ -25,7 +25,9 @@ export const Search = styled.TextInput.attrs({
   width: 100%;
   height: ${mvs(50)}px;
   padding: ${mvs(10)}px;
-  margin-top: ${mvs(30)}px;
+  margin-vertical: ${mvs(30)}px;
   background-color: ${({ theme }) => theme.colors.gray};
   border-radius: ${mvs(8)}px;
+
+  font-size: ${mvs(14)}px;
 `;
